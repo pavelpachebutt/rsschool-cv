@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'Inica-Regular';
+    src: url(/plants/fonts/Inika-Regular.ttf);
+
+    font-family: 'Inica-Bold';
+    src: url(/plants/fonts/Inika-Bold.ttf);
+
+    font-family: 'Inter-Regular';
+    src: url(/plants/fonts/static/Inter-Regular.ttf);
+
+    font-family: 'Inter-Bold';
+    src: url(/plants/fonts/static/Inter-Bold.ttf);
+
+}
+
+p, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+span {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+/* header */
+
+header {
+    background-color: rgb(237,242,236);
+}
+
+.logo-navigation {
+    display: flex;
+    align-items: center;
+    height: 134px;
+    padding: 0 110px;
+    justify-content: space-between;
+    font-family: 'Inica-Regular';
+}
+
+.logo-img-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img-name > img {
+    height: 20px;
+    width: 20px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list > li {
+    list-style: none;
+}
+
+li > a {
+    margin-left: 46px;
+    text-decoration: none;
+    color: rgb(1,2,1);
+}
+
+li > a:hover {
+    font-family: 'Inica-Bold';
+    color: rgb(224,103,51);
+}
+
+/* welcom */
+
+.welcome {
+    background-color: rgb(237,242,236);
+    height: 532px;
+}
+
+span {
+    color: rgb(73,154,24);
+}
+
+.welcome-content {
+    display: flex;
+    /* padding: 62px 109px 62.64px 109px */
+}
+
+.welcome-img > img {
+    max-width: 448.8px;
+    max-height: 407.36px;
+    padding: 62px 0 0 109px;
+}
+
+.welcome-text {
+    max-width: 549px;
+    max-height: 340px;
+    padding: 98px 0 0 224px;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgba(113, 113, 113);
+    font-family: 'Inter-Bold';
+}
+
+.welcome-p {
+    padding-top: 42px;
+    font-family: 'Inter-Regular';
+    font-size: 20px;
+    color: rgb(99,96,96);
+    line-height: 35px;
+}
+
+.welcome-btn {
+    margin-top: 48px;
+    color: rgb(1,2,1);
+    border: 1px solid rgba(224, 103, 51);
+    border-radius: 10px;
+    width: 158px;
+    height: 44px;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.welcome-btn:hover {
+    background-color: rgb(224,103,51);
+    color: white;
+    cursor: pointer;
+}
+
+/* about */
+
+.about {
+    max-height: 666px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 187px;
+}
+
+.about-span {
+    color: rgb(224,103,51);
+}
+
+.about-text {
+    padding: 161px 0 0 109px;
+}
+
+.about-h2 {
+    font-size: 40px;
+    font-family:  'Inica-Regular';
+    line-height: 52px;
+    color: rgb(73,154,24);
+}
+
+.about-p {
+    width: 605px;
+    padding-top: 40px;
+    font-size: 20px;
+    color: rgba(99, 96, 96);
+    line-height: 30px;
+}
+
+.about-img {
+    padding: 93px 109px 0 0;
+}
+
+/* service */
+
+.service {
+    background-color: rgb(237,242,236);
+}
+
+.service-title-btn {
+    display: flex;
+    padding: 41px 0 0 101px;
+}
+
+.service-h2 {
+    font-family:  'Inica-Regular';
+    font-size: 40px;
+    color: rgb(73,154,24);
+}
+
+.service-btns {
+    padding: 69px 0 0 102px;
+    display: flex;
+}
+
+.service-btn {
+    border: 1px solid rgba(224, 103, 51);
+    color:  rgba(224, 103, 51);
+    background-color: transparent;
+    width: 161px;
+    height: 50px;
+    margin-left: 38px;
+    border-radius: 5px;
+    font-family: 'Inica-Regular';
+    cursor: pointer;
+}
+
+.service-btn:hover {
+    background-color:  rgba(224, 103, 51);
+    color: white;
+}
+
+.service-cards {
+    padding: 89px 109px  109px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 55px 116px;
+}
+
+.service-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    border: 1px solid rgba(227, 225, 213);
+    border-radius: 0px 0px 20px 20px;
+    max-width: 328px;
+    height: 98px;
+}
+
+
+.card-title {
+    font-family: 'Inica-Bold';
+    font-size: 20px;
+    color: rgba(224, 103, 51);
+    line-height: 20px;
+}
+
+.crad-text {
+    color: rgba(113, 113, 113); 
+    font-family: 'Inica-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* price */
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    height: 560px;
+}
+
+.price-content-left {
+    padding: 40px 0 0 109px;
+}
+
+.price-title-1 {
+    font-family: 'Inter-Bold';
+    font-size: 40px;
+}
+
+.price-content-left-drop-down-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(226,224,212);
+    border-radius: 20px;
+    width: 332px;
+    height: 282.01px;
+    padding: 41px 34px;
+    margin-top: 60px;
+}
+
+.drop-down-list {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(237,242,236);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.drop-down {
+    font-family: 'Inter-Bold';
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.price-content-right {
+    padding: 40px 91px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.price-title-2 {
+    font-family: 'Inter-Bold';
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.price-content-right > img {
+    max-width: 152px;
+    max-height: 174.99px;
+    margin-top: 38px;
+}
+
+.price-btn {
+    border: 1px solid rgba(224, 103, 51);
+    color:  rgba(224, 103, 51);
+    background-color: transparent;
+    width: 161px;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Inica-Regular';
+    margin-top: 38px;
+    cursor: pointer;
+    
+}
+
+.price-btn:hover {
+    background-color:  rgba(224, 103, 51);
+    color: white;
+}
