@@ -7,7 +7,7 @@
 * Phone:  +375292877423
 * E-mail: pavelpachebut@gmail.com
 * Telegram: @pavelpachebut
-[LinkedIn](https://www.linkedin.com/in/pavel-pachebut-804a02251/)
+* [LinkedIn](https://www.linkedin.com/in/pavel-pachebut-804a02251/)
 
 ---
 
@@ -53,7 +53,9 @@ __IT Academy:__ Website Development with HTML,CSS & Javascript
 __Languages:__
 
 __Polish A2__
+
 __English A1__ in process
+
 __Russian native__
 
 
