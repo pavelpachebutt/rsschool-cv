@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  
+html {
+    scroll-behavior: smooth; 
+}
+
+:root {
+    --color-back-profile: rgb(242, 242, 242);
+    --color-text-black: rgb(30, 25, 25);
+    --color-subtitle: #5C5C5C;
+}
+
+h2 {
+    color: var(--color-subtitle);
+    font-size: 23px;
+    font-weight: 300;
+    margin: 15px 0;
+    text-align: center;
+}
+
+p {
+    color: var(--color-subtitle);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    height: 100vh;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    background-color: var(--color-back-profile);
+}
+
+.logo-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10%;
+    
+}
+
+.main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: var(--color-text-black);
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+}
+
+.line {
+    background-color: rgb(91, 89, 89);
+    width: 40%;
+    height: 1.5px;
+    margin: 0 auto;
+}
+
+.main-subtitle {
+    padding-top: 10px; ;
+    
+}
+
+.contact {
+    padding: 0 5px;
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-list {
+    list-style: none;
+    text-align: start;
+    padding: 0;
+}
+
+.contact-item {
+    padding: 5px 0;
+}
+
+.contact-item > a {
+    text-decoration: none;
+    color: var(--color-subtitle);
+    font-size: 18px;
+}
+
+.skills > ul {
+    text-align: start;
+}
+
+.main-infotmation {
+    padding: 20px 20px;
+}
+
+.about-me > h3 {
+    text-align: center;
+}
+
+.code-img {
+    padding-top: 20px;
+}
+
+.line-information {
+    background-color: rgb(91, 89, 89);
+    width: 15%;
+    height: 1.5px;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo-school {
+    width: 70px;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    font-size: 30px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-item > a {
+    font-size: 20px;
+    padding: 0 15px;
+}
