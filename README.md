@@ -1,1 +1,1 @@
-https://pavelpachebutt.github.io/rsschool-cv/
+https://pavelpachebutt.github.io/rsschool-cv/cv
