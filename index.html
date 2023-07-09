@@ -10,15 +10,15 @@
 <body>
     <main class="main">
         <div class="container">
-            <section class="profile">
+            <header class="profile">
                 <img src="./1664884484714.jpg" alt="foto" class="logo-foto">
                 <div class="profile-content-title">
                     <h1 class="main-title">Pavel Pachebut</h1>
                     <div class="line"></div>
-                    <h3 class="main-subtitle">Front-end Developer</h3>
+                    <h2 class="main-subtitle">Front-end Developer</h2>
                 </div>
-                <div class="contact">
-                    <h3 class="contact-title">Contacts</h3>
+                <div class="contact" id="contacs">
+                    <h2 class="contact-title">Contacts:</h2>
                     <div class="line"></div>
                     <ul class="contact-list">
                         <li class="contact-item">
@@ -40,7 +40,7 @@
                     </ul>
                 </div>
                 <div class="skills">
-                    <h3>Skills and Proficiency:</h3>
+                    <h2>Skills and Proficiency:</h2>
                     <div class="line"></div>
                     <ul>
                         <li>HTML5, CSS3</li>
@@ -50,8 +50,78 @@
                         <li>Adobe Photoshop, Figma</li>
                     </ul>
                 </div>
+            </header>
+            <section class="main-infotmation">
+                <div class="about-me">
+                    <h2>About me</h2>
+                    <div class="line-information"></div>
+                    <p class="about-me__text">I got interested in website development relatively recently. I wanted to radically change my profession. I stumbled across the RS School courses on the Internet and decided to try it. And I was overwhelmed.
+                        Studying is not easy, but it is very exciting, so I want to continue to draw new knowledge and improve my level!</p>
+                </div>
+                <div class="code-example">
+                    <h2>Code example:</h2>
+                    <div class="line-information"></div>
+                    <pre class="pre">
+                        <code class="code">
+                            function factorial(n) {
+                                if(n &lt; 0) return null;
+                                if (n &lt;= 1) return 1;
+                                return n * factorial(n-1);
+                            }
+                        </code>
+                    </pre>
+                </div>
+                <div class="courses">
+                    <h2>Courses:</h2>
+                    <div class="line-information"></div>
+                    <p><b>IT Academy:</b> Website Development with HTML,CSS & Javascript</p>
+                </div>
+                <div class="education">
+                    <h2>Education</h2>
+                    <div class="line-information"></div>
+                    <p>Gomel Technical University P.O. Suhogo</p>
+                </div>
+                <div class="languages">
+                    <h2>Languages:</h2>
+                    <div class="line-information"></div>
+                    <ul>
+                        <li>Polish A2</li>
+                        <li>English A2</li>
+                        <li>Russina native</li>
+                    </ul>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#contacs">Contacs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#code">Code example</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#language">Language</a>
+                        </li>
+                    </ul>
+                </nav>
+                <footer>
+                    <a href="https://github.com/pavelpachebutt" title="github">@pavelpachebutt</a>
+                    <p>2023</p>
+                    <img src="./icon/rs_school_js.svg" alt="logo" class="logo-school">
+                    <a href="https://rs.school/js-stage0/" title="RS school">Cours RS School</a>
+                </footer>
             </section>
-            <section class="main-infotmation"></section>
         </div>
     </main>
 </body>
